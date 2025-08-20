@@ -107,9 +107,9 @@ header .container h1 {
 /* Match image display size to styles.css */
 .product-card .thumb {
   width: 100%;
-  height: 180px;
+  height: 250px;
   margin-bottom: 1rem;
-  border-radius: 12px;
+  border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 2px 12px #e6c6f7aa;
   background: #f7c8e0;
@@ -121,7 +121,7 @@ header .container h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 18px;
   transition: transform 0.3s;
 }
 .product-card:hover img {
@@ -242,8 +242,8 @@ footer a:hover {
     border-radius: 12px;
   }
   .product-card .thumb {
-    height: 130px;
-    border-radius: 10px;
+    height: 180px;
+    border-radius: 12px;
   }
   .product-card h3 {
     font-size: 1rem;
